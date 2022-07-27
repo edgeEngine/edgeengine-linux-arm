@@ -1,5 +1,5 @@
-# edgeengine-amd-ubuntu
-edgeEngine for AMD Ubuntu Platform (Ubuntu Distribution)
+# edgeengine-linux-arm
+edgeEngine for Linux ARM Platform 
 
 # Installation Guide
 1. Download latest release for Ubuntu [HERE](https://github.com/edgeEngine/edgeengine-linux/releases)
@@ -8,7 +8,7 @@ edgeEngine for AMD Ubuntu Platform (Ubuntu Distribution)
 4. Open terminal and navigate to the newly created directory that now has the downloaded .tar file
 5. *Untar package (ex:)
 ```
-tar xvf edge-amd-v3.0.0
+tar xvf edge-arm-v3.0.0.tar
 ```
 6. Run start script to start edgeEngine
 ```
