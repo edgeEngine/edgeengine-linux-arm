@@ -1,5 +1,5 @@
-# edgeengine-linux
-edgeEngine for Linux Platform (Ubuntu Distribution)
+# edgeengine-amd-ubuntu
+edgeEngine for AMD Ubuntu Platform (Ubuntu Distribution)
 
 # Installation Guide
 1. Download latest release for Ubuntu [HERE](https://github.com/edgeEngine/edgeengine-linux/releases)
