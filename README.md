@@ -9,47 +9,46 @@
 
 ## edgeEngine for Linux ARM Platform 
 
-For those who are new to edgeEngine, we recommend to read about overall capabilities of this product [here](https://devdocs.mimik.com/introduction)
+For those who are new to edgeEngine, we recommend reading about the overall capabilities of this product [here](https://devdocs.mimik.com/introduction)
 
 
-Please also be advised that there are different version of edgeEngine available for different CPU architecture and OS platforms. Please see [here](https://github.com/edgeEngine)
+Please also be advised that different versions of edgeEngine are available for different CPU architectures and OS platforms. Please see [here](https://github.com/edgeEngine)
 
-The edgeEngine 3.0.x Runtime for ARM CPU architecture is a new generation of edgeEngine with a new set of features and capabilitis as described in the followings:
+The edgeEngine 3.0.x Runtime for ARM CPU architecture is a new generation of edgeEngine with a new set of features and capabilities as described in the followings:
 
  - Supporting WebAssembly serverless microservice runtime environment.
  - Supporting wasi_snapshot_preview1 in WebAssembly serverless microservice runtime environment
  - Supporting Prometheus metrics endpoint. (observability)
 
- Besides the above mentioned new features, we also imporved the following existing features as described below:
+ Besides the above-mentioned new features, we also improved the following existing features as described below:
  - Global discovery
  - Feedbacks for API errors
- - Response time in JavaScript serverless microservice runtime environment enabling a serverless enviroenment for different cores of ARM CPU.
+ - Response time in JavaScript serverless microservice runtime environment enabling a serverless environment for different cores of ARM CPU.
  
- By using existing and the new edgeEngine's capabilities, embeded platform developers will be able to: 
+ By using existing and the new edgeEngine's capabilities, embedded platform developers will be able to: 
  
- - Develop Multi-thread programs cross all cores.
+ - Develop Multi-thread programs across all cores.
  - Dynamically configure microsercices.
- - Reuse the microservices code cross different platforms.
- - Use RESTful API to communicate with microserces across the CPU cores and across the PCBs.
- - Use a uniform deployement mechanism cross all CPU cores and across different PCBs
- - Dynamically update microservices across the cores, platforms and PCBs.
- - Dynamically deploye microservices across all platforms and PCBs, using "Controll node" and "Worker node" model.
- - Make File system available for all microservices even for those which are running on restricted cores (i.e. R5F cores on TI-TDA4VM)
- - From microservice mesh acorss CPU cores, platfroms or PCBs
- - Enable microservice-to-microservice communication running on CPU cores or beteen PCBs.
- - RESTful API instead of RPC API on restricted ARM coretex (i.e. R5F)
+ - Reuse the microservices code across different platforms.
+ - Use RESTful API to communicate with microservices across the CPU cores and across the PCBs.
+ - Use a uniform deployment mechanism across all CPU cores and across different PCBs
+ - Dynamically update microservices across the cores, platforms, and PCBs.
+ - Dynamically deploy microservices across all platforms and PCBs, using the "Control node" and "Worker node" model.
+ - Make the File system available for all microservices, even for those which are running on restricted cores (i.e., R5F cores on TI-TDA4VM)
+ - From microservice mesh across CPU cores, platforms, or PCBs
+ - Enable microservice-to-microservice communication running on CPU cores or between PCBs.
+ - RESTful API instead of RPC API on restricted ARM cortex (i.e., R5F)
 
  ## Compatibility
 
-#### TI....
 
 
-| CPU Architecture | CPU Type   | Operating System| edgeEngine Artifact |
+| CPU Architecture | CPU Type   | Operating System| system |
 | :-------- | :------- | :-------- | :-------- |
-| ARM A72, A73  | xxxxxxxxxxxx | xxxxxxxxxxxx | xxxxxxxxxxxx | 
-| |  xxxx  | xxxxxxxxxxxx | xxxxxxxxxxxx | xxxxxxxxxxxx | 
-|  | xxxxxxxxxxxx | xxxxxxxxxxxx | xxxxxxxxxxxx | 
-|  | xxxxxxxxxxxx | xxxxxxxxxxxx | xxxxxxxxxxxx | 
+| ARMv8-A| Cortex-A34, Cortex-A35, Cortex-A53, Cortex-A57, Cortex-A72, Cortex-A73|TI-Linux     | https://github.com/edgeEngine/edgeengine-linux-arm| 
+|ARMv8-A | Cortex-A34, Cortex-A35, Cortex-A53, Cortex-A57, Cortex-A72, Cortex-A73  |Ubuntu Linux  | https://github.com/edgeEngine/edgeengine-linux-arm| 
+|  ARMv8-A| Cortex-A34, Cortex-A35, Cortex-A53, Cortex-A57, Cortex-A72, Cortex-A73| NVIDIA Linux | https://github.com/edgeEngine/edgeengine-linux-arm| 
+|ARMv8-A  |  Cortex-A53, Cortex-A72       | QNX 7.1  | https://github.com/edgeEngine/edgeengine-embedded-os | 
 
 ## Related
 
@@ -66,13 +65,13 @@ What are the relates (internal and external) Sources ?
 <details><summary> Installation Guide </summary>
 <p>
  
-1. Download latest release for Ubuntu [HERE](https://github.com/edgeEngine/edgeengine-linux/releases)
+1. Download the latest release for Ubuntu [HERE](https://github.com/edgeEngine/edgeengine-linux/releases)
  
-2. Create new directory
+2. Create a new directory
  
-3. Move package to newly created directory 
+3. Move the package to newly a created directory 
  
-4. Open terminal and navigate to the newly created directory that now has the downloaded .tar file
+4. Open a terminal and navigate to the newly created directory that now has the downloaded .tar file
  
 5. *Untar package (ex:)
  
@@ -83,7 +82,7 @@ tar xvf edge-linux-v3.0.0.tar
 ```
 ./start.sh
 ```
-7. Please visit https://developer.mimik.com and create your account and get more information
+7. Please visit https://developer.mimik.com and create your account and access the resources
 
 
 </p>
@@ -95,9 +94,8 @@ tar xvf edge-linux-v3.0.0.tar
 
 
 * A directory may be made after untaring. Navigate into that directory to find `start.sh` script 
-- Do not close terminal window where edgeEngine is running. Closing this window will terminate edgeEngine process
-- To stop edgeEngine simply close or use keyboard shortcut CTRL + C in terminal window where edgeEngine is running
-"Hello World"
+- Do not close the terminal window where edgeEngine is running. Closing this window will terminate edgeEngine process.
+- To stop edgeEngine, simply close or use the keyboard shortcut CTRL + C in the terminal window where edgeEngine is running "Hello World."
 
 
 </p>
@@ -112,7 +110,7 @@ tar xvf edge-linux-v3.0.0.tar
 [Discord](https://discord.gg/vrdXc5MM)
 
 ## Contributing 
-We Always welcome contribution. Refer to our contribution guideline.
+We Always welcome contribution. [Email](edgifi@mimik.com) us to get more information regarding the contribution guideline. 
 
 ## Community 
 
