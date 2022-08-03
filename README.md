@@ -28,14 +28,14 @@ The edgeEngine 3.0.x Runtime for ARM CPU architecture is a new generation of edg
  By using existing and the new edgeEngine's capabilities, embedded platform developers will be able to: 
  
  - Develop Multi-thread programs across all cores.
- - Dynamically configure microsercices.
+ - Dynamically configure microservices.
  - Reuse the microservices code across different platforms.
  - Use RESTful API to communicate with microservices across the CPU cores and across the PCBs.
- - Use a uniform deployment mechanism across all CPU cores and across different PCBs
+ - Use a uniform deployment mechanism across all CPU cores and across different PCBs.
  - Dynamically update microservices across the cores, platforms, and PCBs.
  - Dynamically deploy microservices across all platforms and PCBs, using the "Control node" and "Worker node" model.
- - Make the File system available for all microservices, even for those which are running on restricted cores (i.e., R5F cores on TI-TDA4VM)
- - From microservice mesh across CPU cores, platforms, or PCBs
+ - Make the File system available for all microservices, even for those which are running on restricted cores (i.e., R5F cores on TI-TDA4VM).
+ - From microservice mesh across CPU cores, platforms, or PCBs.
  - Enable microservice-to-microservice communication running on CPU cores or between PCBs.
  - RESTful API instead of RPC API on restricted ARM cortex (i.e., R5F)
 
@@ -52,7 +52,7 @@ The edgeEngine 3.0.x Runtime for ARM CPU architecture is a new generation of edg
 
 ## Related
 
-What are the relates (internal and external) Sources ? 
+What are the related (internal and external) Sources ? 
 - [QNX](https://www.qnx.com/developers/docs/)
 - [Ubuntu](https://ubuntu.com/desktop/developers)
 
