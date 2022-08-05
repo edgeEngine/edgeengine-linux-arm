@@ -58,7 +58,11 @@ What are the related (internal and external) Sources ?
 
 ## How does it work ?
 
-- A generic diagram ?
+
+
+https://user-images.githubusercontent.com/86588827/182989462-4240470f-9896-4633-8beb-f8d9b62a687a.mp4
+
+
 
 ## Documentation 
 
