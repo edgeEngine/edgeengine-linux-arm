@@ -93,7 +93,6 @@ tar xvf edge-linux-v3.0.0.tar
 <p>
 
 
-
 * A directory may be made after untaring. Navigate into that directory to find `start.sh` script 
 - Do not close the terminal window where edgeEngine is running. Closing this window will terminate edgeEngine process.
 - To stop edgeEngine, simply close or use the keyboard shortcut CTRL + C in the terminal window where edgeEngine is running "Hello World."
