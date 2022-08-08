@@ -102,15 +102,6 @@ tar xvf edge-linux-v3.0.0.tar
 </details>
 
 
-## Contact
-
-
-[Email](edgifi@mimik.com)
-
-
-## Contributing 
-We Always welcome contribution. [Email](edgifi@mimik.com) us to get more information regarding the contribution guideline. 
-
 
 
 
