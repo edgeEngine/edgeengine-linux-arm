@@ -60,9 +60,6 @@ What are the related (internal and external) Sources ?
 
 
 
-https://user-images.githubusercontent.com/86588827/182989462-4240470f-9896-4633-8beb-f8d9b62a687a.mp4
-
-
 
 ## Documentation 
 
@@ -111,14 +108,11 @@ tar xvf edge-linux-v3.0.0.tar
 
 [Email](edgifi@mimik.com)
 
-[Discord](https://discord.gg/vrdXc5MM)
 
 ## Contributing 
 We Always welcome contribution. [Email](edgifi@mimik.com) us to get more information regarding the contribution guideline. 
 
-## Community 
 
- [Join us in Discord](https://discord.gg/vrdXc5MM)
 
 
 
