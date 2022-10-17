@@ -31,6 +31,8 @@
   </ol>
 </details>
 
+# about-the-project
+
 # edgeEngine for Linux on ARM
 
 ## edgeEngine for Linux ARM Platform 
